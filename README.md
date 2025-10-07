@@ -19,7 +19,30 @@
 
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+
+* Hypothesis 1: Lead Time vs. Cancellation
+- H0: There is no relationship between lead time and the likelihood of booking cancellation.
+- H1: Longer lead times are associated with a higher likelihood of booking cancellation.
+- Rationale: Customers who book far in advance may have a higher chance of changing their plans or finding alternative options.
+- How to Test:chi-square test, compare mean lead time between canceled and non-canceled bookings using a t-test,visualize with boxplots or histograms for canceled vs. non-canceled bookings.
+
+* Hypothesis 2: Deposit Type vs. Cancellation
+- H0: Cancellation rates are independent of the type of deposit.
+- H1: Bookings with refundable or no deposit have higher cancellation rates than non-refundable deposits.
+- Rationale: A higher financial commitment (non-refundable deposit) discourages cancellations, while refundable or no-deposit bookings are easier to cancel.
+- How to Test: chi-square test of independence between deposit_type and is_canceled, calculate cancellation rates per deposit type, visualize with a bar chart showing percentage canceled per deposit type.
+
+* Hypothesis 3: Customer Type vs. Cancellation
+- H0: Customer type (transient, group, contract, transient_party) does not affect the probability of cancellation.
+- H1: Certain customer types (e.g., transient guests) have higher cancellation rates than others (e.g., contract clients).
+- Rationale: Groups or contract clients are more committed to their bookings, while individual or transient guests may cancel more frequently.
+- How to Test:chi-square test for independence between customer_type_label and is_canceled, compute cancellation rates per customer type,visualize with stacked bar charts to compare cancellation percentages across customer types.
+
+* Hypothesis 4: Family vs. Cancellation
+- H0: Being a family booking (is_family) does not affect the likelihood of cancellation.
+- H1: Family bookings are less likely to be canceled compared to non-family bookings.
+- Rationale: Families often plan stays in advance and are less likely to cancel compared to individual or transient guests.
+- How to Test: chi-square test of independence between is_family and is_canceled, calculate cancellation rates for family vs. non-family bookings,visualize with bar plots showing the proportion of cancellations for families vs. non-families.
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
