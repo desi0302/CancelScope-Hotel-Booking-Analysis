@@ -18,3 +18,4 @@ else:
     img = img.resize((target_w, target_h), Image.LANCZOS)
     img.save(dst, optimize=True, quality=85)
     print(f"Saved resized image to {dst}")
+    
