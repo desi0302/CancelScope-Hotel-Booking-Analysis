@@ -212,4 +212,6 @@ The project is hosted on GitHub, where all components—including data processin
 ## Acknowledgements
 With gratitude to **Vasi** and the **Code Institute** — your mentorship and inspiration made this journey possible.
 
-# ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Thank You GIF](https://media.tenor.com/_k3iw0jD0R8AAAAC/thank-you.gif)
+
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
