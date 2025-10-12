@@ -106,8 +106,8 @@ This structure ensures that each phase builds upon validated, cleaned data and t
 - Pi-charts: Guest type, Hotel type, International or not, Family or not
 
 <p float="left">
-  <img src="images/page1-a.png" width="600" />
-  <img src="images/page1-b.png" width="600" />
+  <img src="images/page1-a.png" width="500" />
+  <img src="images/page1-b.png" width="500" />
 </p>
 
 * Page 2: Key Influencers of Cancellations - AI-powered visual
