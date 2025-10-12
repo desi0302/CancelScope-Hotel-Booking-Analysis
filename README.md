@@ -92,7 +92,7 @@ This structure ensures that each phase builds upon validated, cleaned data and t
 * AI tools such as Copilot and ChatGPT were helpful in summarizing my notes and generating clearer lists and steps, as my preliminary plans and ideas were mostly in a rough notepad blueprint. Copilot, integrated in VS Code, assisted with code optimization and with creating a script to resize the image used in my README file. I also used Copilot to generate labels in the ETL notebook, which saved significant time that would otherwise have been spent looking up country abbreviations, names, and business terminology ('ta_to': 'Travel Agent/Tour Operator'). For the dashboard creation, I leveraged ChatGPT to write DAX formulas, which further optimized and accelerated my workflow throughout the project. Additionally, AI tools provided guidance throughout the machine learning workflow, helping me choose suitable approaches and interpret the results more effectively.
 
 ## Ethical considerations
-* There were no data privacy, bias or fairness concerns with the dataset. According to the original documentation, all data elements related to hotel or customer identification were removed to protect privacy. While I did not have access to the original dataset source documentation during the project due to a technical issue with the website, I relied entirely on the dataset description on Kaggle, where I downloaded it. The Kaggle description also confirms that “all data elements pertaining to hotel or customer identification were deleted,” ensuring that privacy was maintained.
+* There were no data privacy, bias or fairness concerns with the dataset. According to the dataset description on Kaggle: “all data elements pertaining to hotel or customer identification were deleted”, ensuring that privacy was maintained.
 
 ## Dashboard Design - pages and content
 * Page 1: Overview & Key Metrics
@@ -104,6 +104,11 @@ This structure ensures that each phase builds upon validated, cleaned data and t
 - Scater chart: Cancelation rate and total guests by region and lead time
 - Filter by: Country, customer type, distribution channel, market segment
 - Pi-charts: Guest type, Hotel type, International or not, Family or not
+
+<p float="left">
+  <img src="images/page1-a.png" width="600" />
+  <img src="images/page1-b.png" width="600" />
+</p>
 
 * Page 2: Key Influencers of Cancellations - AI-powered visual
 - Key Influencer visual: Identifies factors with the strongest impact on cancellations
