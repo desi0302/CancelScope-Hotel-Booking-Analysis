@@ -136,14 +136,27 @@ The dashboard was designed to communicate complex data insights in a way that is
 
 **Note: The final dashboard differs from the original wireframe due to changes and new ideas implemented during development.**
 
+## Dashboard Accessibility
+The accessibility check showed that while most colors in the dashboard are easily distinguishable, there may be slight similarities between some colors for users with green color blindness—particularly on page 3, where the bars for 2015 and 2017 do not contrast strongly. However, all key insights remain accessible because each chart and visual includes clear labels, legends, and data values, ensuring the information is understandable even when color differences are less apparent.
+
+<p float="left">
+  <img src="images/accessibility1.png" width="600" />
+</p>
+
+<p float="left">
+  <img src="images/accessibility2.png" width="600" />
+</p>
+
+
 ## Unfixed Bugs and challenges
-At the time of completing this section, there were no identified unresolved bugs. During the development process, I encountered some technical issues. The first occurred at the beginning of the Power BI dashboard creation, when I attempted to use a custom map visual downloaded from the “Get more visuals” menu. After installing it, Power BI froze and repeatedly crashed upon reopening. To resolve this, I started a new project, removed the problematic map visual, and the issue was successfully fixed, but I was not able of taking a screenshot of the problem.
+At the time of final submission, no unresolved bugs were identified.During the development process, I encountered some technical issues. The first occurred at the beginning of creating the Power BI dashboard, when I attempted to use a custom map visual downloaded from the “Get more visuals” menu. After installing it, Power BI froze and repeatedly crashed upon reopening. To resolve the issue, I started a new project and removed the problematic map visual. This successfully fixed the problem; however, I was unable to capture a screenshot of the issue.
 
 ![dashboardbug](images/dashboardbugcause.png)
 
-The second issue arose during the machine learning stage, when I mistakenly saved the sampled dataset with an 80:20 split instead of a 50:50 ratio based on the target variable. As a result, the model showed unusually high precision for the majority class but very low recall, indicating class imbalance. After researching the issue, revisiting relevant educational materials, and reviewing my code, I identified the cause and corrected the sampling process, which resolved the problem.
+The second issue arose during the machine learning stage, when I mistakenly saved the sampled dataset with an 80:20 balance instead of a 50:50 ratio based on the target variable. Consequently, the model exhibited unusually high precision for the majority class but very low recall, indicating class imbalance. After reviewing relevant materials and my code, I identified the cause and corrected the sampling process, which resolved the issue.
 
-Wrong balance code: ![wrong](images/wrong-balance.png)       Right balance code:  ![right](images/right-balance.png)
+Wrong balance code: ![wrong](images/wrong-balance.png)  
+Right balance code:  ![right](images/right-balance.png)
 
 Additionally, I initially lost access to the original dataset source, quoted on the Kaggle dataset page. After investigating, I discovered that the data owner had restricted access from certain countries, VPNs, and hosting providers. Disabling my VPN software immediately restored access to the dataset information.
 
@@ -162,6 +175,7 @@ Resolved:
 Based on my experience with this project, I plan to further develop my expertise in Power BI, particularly in creating advanced and customized visuals. My current knowledge is functional but not yet intuitive and I often needed to search for guidance when adjusting features or modifying chart types. To improve, I intend to explore more complex visual designs and practice using advanced dashboard capabilities.
 I am also particularly interested in experimenting with Streamlit to build an interactive dashboard that allows real-time data input and testing of live update functionality.
 To strengthen the predictive modeling aspect of this project, I plan to experiment with additional machine learning algorithms such as Gradient Boosting Machines (e.g., XGBoost, LightGBM) and Logistic Regression. Comparing their performance with Random Forest will help identify the most effective approach for predicting hotel booking cancellations and enhancing the model’s accuracy and reliability.
+Also, while the current dashboard is accessible, I plan to further improve color differentiation to ensure even greater clarity for all users.
 
 ## Deployment
 The project is hosted on GitHub, where all components—including data processing notebooks (ETL, EDA, ML) and the Power BI dashboard file - are organized within the repository. To explore the dashboard, users can download or clone the repository, open the .pbix file in Power BI Desktop, and interact directly with the included dataset. The current version is designed for local execution and no automated cloud or web deployment has been implemented at this stage.
@@ -190,6 +204,8 @@ The project is hosted on GitHub, where all components—including data processin
 - Copilot in VScode - assisted with code suggestions and commenting
 - Markdowns cheatsheets: 
     [CheatSheet](https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet),	[BasicSintax](https://www.markdownguide.org/basic-syntax/)
+- Colour Blindness Simulator:
+    [Coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/)
 
 **Note: While all sources have been carefully cited, any omissions are unintentional and will be corrected in future revisions.**
 
