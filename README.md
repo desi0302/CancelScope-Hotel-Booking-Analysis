@@ -1,6 +1,6 @@
 <h1 align="center">CancelScope - Hotel Booking Analysis</h1>
 
-**CancelScope** analyzes hotel booking records to identify the key drivers of reservation cancellations and recommend actions to reduce churn. It combines exploratory data analysis and predictive modeling to produce clear visualisations and an interactive dashboard for hotel managers.
+**CancelScope** empowers hotel management teams with actionable insights to reduce reservation cancellations and maximize revenue. By analyzing real-world booking data, it uncovers key patterns and factors influencing customer cancellations—such as booking lead times, guest segments, and market channels. CancelScope translates complex data into intuitive visual dashboards, enabling decision-makers to quickly identify trends, assess performance, and make informed choices regarding policies, marketing, and guest engagement. The project aligns with strategic business goals by recommending practical actions to enhance customer retention, optimize occupancy, and improve operational efficiency.
 
 
 <p align="center">
@@ -171,7 +171,13 @@ Resolved:
   <img src="images/disconnect-vpn.png" width="300" />
 </p>
 
-## Development Roadmap, Future improvements
+## Project Organisation & Data Management Practices
+
+The project follows structured and transparent data management and development practices to ensure reproducibility, clarity and maintainability. All code is version-controlled using Git with each commit representing a distinct feature, improvement, or finalized change. These commits reflect decisions on which code, workflows or data transformations to retain, providing a clear history of the project’s development
+Data is stored in a structured and consistent format, with raw datasets preserved separately from processed and cleaned versions used for analysis and modeling. Throughout the project, the notebooks are organized into clear sections—ETL, exploratory data analysis (EDA), machine learning(ML) and dashboard development—ensuring that each stage of the workflow is modular, well-documented and reproducible. Key data handling steps such as missing value treatment, feature engineering, normalization and sampling for balanced modeling- are explicitly documented within the notebooks.
+This way of organisation allows easy tracking of changes, verification of results and clear communication of methods. It also facilitates collaboration and future enhancements, ensuring that the analysis, modeling and dashboard outputs are interpretable, reproducible and aligned with business objectives.
+
+## Development Roadmap & Future improvements
 Based on my experience with this project, I plan to further develop my expertise in Power BI, particularly in creating advanced and customized visuals. My current knowledge is functional but not yet intuitive and I often needed to search for guidance when adjusting features or modifying chart types. To improve, I intend to explore more complex visual designs and practice using advanced dashboard capabilities.
 I am also particularly interested in experimenting with Streamlit to build an interactive dashboard that allows real-time data input and testing of live update functionality.
 To strengthen the predictive modeling aspect of this project, I plan to experiment with additional machine learning algorithms such as Gradient Boosting Machines (e.g., XGBoost, LightGBM) and Logistic Regression. Comparing their performance with Random Forest will help identify the most effective approach for predicting hotel booking cancellations and enhancing the model’s accuracy and reliability.
@@ -211,7 +217,5 @@ The project is hosted on GitHub, where all components—including data processin
 
 ## Acknowledgements
 With gratitude to **Vasi** and the **Code Institute** — your mentorship and inspiration made this journey possible.
-
-![Thank You GIF](https://media.tenor.com/_k3iw0jD0R8AAAAC/thank-you.gif)
 
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
